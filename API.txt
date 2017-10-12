@@ -1,0 +1,9 @@
+Ќапример, запрашиваю страницу с id178634001, с отображением никнэйма, даты рождени€ и фото:
+
+https://api.vk.com/method/users.get.json?user_ids=178634001&fields=nickname,bdate,photo_200&v=5.68
+
+получила такой ответ:
+
+{"response":[{"id":178634001,"first_name":"Deimos","last_name":"Neskajufamiliy","nickname":"","bdate":"16.7","photo_200":"https:\/\/pp.userapi.com\/c319324\/v319324001\/a74f\/D-8Bt_vEaug.jpg"}]}
+
+(не смогла скопировать ответ в формате xml, переделала на формат json) 
